@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,700;0,800;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.background img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  object-fit: scale-down;
+}
+#colosseum {
+  filter: brightness(0.9);
+  height: 38em;
+}
+#mount-2 {
+  right: 0em;
+  bottom: -16em;
+  object-fit: cover;
+  width: 80%;
+  height: 30em;
+}
+#mount-1 {
+  left: -9em;
+  bottom: -16em;
+  object-fit: cover;
+  width: 87%;
+  height: 30em;
+}
+#shadow {
+  left: -37em;
+  bottom: -4em;
+  object-fit: cover;
+  width: 100%;
+  height: 25em;
+  filter: blur(4px) brightness(0.3) opacity(0.2) contrast(2.5);
+}
+#fog {
+  object-fit: cover;
+  filter: opacity(0.7);
+  height: 34em;
+  width: 100%;
+}
+
+.header li{
+  width: 100%;
+  display: flex;
+  align-items: center;
+justify-content: normal;
+gap: 2px;
+}
+.header li ul{
+  display: none;
+}
+.header li.clicked ul
+{
+  display: block;
+  z-index: 99;
+}
+
