@@ -83,7 +83,7 @@ const Home = () => {
       <div
         className="CardBtns flex gap-4
        relative top-[5em] left-[3em] h-[12em] 
-       max-md:-bottom-[12em]  max-md:absolute
+       max-md:top-[40%]  max-md:absolute
         "
       >
         <CardBtn
