@@ -1,9 +1,7 @@
-import aircraft from "./Aircraft.png";
+
 import logo from "./logo.png";
 import beigeBG from "./beigeBG.jpg";
-import china from "./china.jpg";
 import fog1 from "./fog1.png";
-import fog2 from "./fog2.png";
 import colosseum from "./colosseum.png";
 import colosseum2 from "./colosseum2.png";
 import italy from "./italy.webp";
@@ -16,8 +14,6 @@ import mount1Green from "./mount1Green.png";
 import mount2 from "./mount2.png";
 import mount2Green from "./mount2Green.png";
 import paperBG from "./paperBG.jpg";
-import train from "./train.jpg";
-import train2 from "./train2.jpg";
 import towerBridg from "./tower-bridg.png";
 import travel from "./travel.webp";
 import travel2 from "./travel2.webp";
@@ -37,14 +33,11 @@ export {
   video2,
   logo,
   fog1,
-  fog2,
   travel3,
   travel4,
   travel2,
   travel,
   towerBridg,
-  train2,
-  train,
   paperBG,
   mount2Green,
   mount2,
@@ -57,7 +50,6 @@ export {
   italy,
   colosseum2,
   colosseum,
-  china,
   beigeBG,
-  aircraft,
+
 };

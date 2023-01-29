@@ -14,7 +14,7 @@ import {
   mount2Green,
   colosseum,
 } from "../assets";
-import Note from "./Note";
+
 
 const Home = () => {
 
@@ -72,17 +72,19 @@ const Home = () => {
       overflow-hidden
        bg-cover bg-texture bg-beige"
       >
-        <img className="" id="shadow" src={mount1Dark} ref={shadowImg} />
-        <img className="" id="mount-1" src={mount1Green} ref={mount1Img} />
-        <img className="max-md:-right-[15em] max-md:-bottom-[11em]
-        -right-[31em]
+        <img className="bottom-0 h-[20em]" id="shadow" src={mount1Dark} ref={shadowImg} />
+        <img className="bottom-0 h-[30em]  max-md:h-[25em]" id="mount-1" src={mount1Green} ref={mount1Img} />
+        <img className="max-md:-right-[15em] max-md:-bottom-[10em]
+        -right-[28em] bottom-0 h-[38em] 
         " id="colosseum" src={colosseum} ref={colosseumImg} />
-        <img className="" id="mount-2" src={mount2Green} ref={mount2Img} />
-        <img className="" id="fog" src={fog1} ref={fogImg} />
+        <img className="bottom-0 h-[30em] max-md:h-[25em] " id="mount-2" src={mount2Green} ref={mount2Img} />
+        <img className="bottom-0 h-[30em] max-md:h-[15em]" id="fog" src={fog1} ref={fogImg} />
       </div>
       <div
         className="CardBtns flex gap-4
-       relative top-[5em] left-[3em] h-[12em] max-md:top-[11em] max-md:grid "
+       relative top-[5em] left-[3em] h-[12em] 
+       max-md:-bottom-[12em]  max-md:absolute
+        "
       >
         <CardBtn
           img={travel}

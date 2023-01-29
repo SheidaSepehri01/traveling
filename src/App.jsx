@@ -6,7 +6,7 @@ import Home from "./components/Home";
 function App() {
   return (
     <div className="font-rubik h-screen 
-    max-md:h-[170vh] max-md:w-[120%] overflow-hidden
+    max-md:h-[100vh] max-md:w-[100vw] overflow-hidden 
     ">
       <Header />
       <Home />
